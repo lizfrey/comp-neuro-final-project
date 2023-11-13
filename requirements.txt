@@ -4,3 +4,5 @@ tensorflow
 gensim
 scikit-learn
 tensorflow
+seaborn
+matplotlib
