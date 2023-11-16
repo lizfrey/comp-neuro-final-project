@@ -16,10 +16,11 @@ Fall 2023
 * `requirements.txt` is a file that contains all the libraries needed in `main.ipynb`. At the beginning of `main.ipynb`, I use `pip` to install all the necessary dependencies
 * `tutorial-requirements.txt` is a file that contains all the libraries needed in `tutorial.ipynb`. At the beginning of `tutorial.ipynb`, I use `pip` to install all the necessary dependencies
 * `tutorial.ipynb` is a notebook that walks through [this tutorial](https://pythonalgos.com/2022/01/02/build-a-gru-rnn-in-keras/)
+* [`Final Project Analysis.pdf`](https://github.com/lizfrey/comp-neuro-final-project/blob/main/Final%20Project%20Analysis.pdf) is a PDF that contains my discussion of the results from my project. 
 
 ## Learning Reflection
 
-To see my analysis of the accuracy, confusion matrices, and other metrics from the kaggle dataset, please see my analysis document itself. 
+To see my analysis of the accuracy, confusion matrices, and other metrics from the kaggle dataset, please see [my analysis document](https://github.com/lizfrey/comp-neuro-final-project/blob/main/Final%20Project%20Analysis.pdf) itself. 
 
 Overall, this project helped me learn a few main things:
 
@@ -30,4 +31,4 @@ Overall, this project helped me learn a few main things:
 3. The GRU model. When I was trying to figure out how to implement this, I learned a lot about how the GRU model works. Specifically, I found the comparisons between GRU and LSTM algorithms interesting. Both algorithms are types of recurrent neural networks that are designed to address the vanishing gradient problem (problem where the gradients used in gradient descent become extremely small or "vanish"), but GRUs are significantly more simple in comparison to LSTMs. 
 
 ## Other Miscellaneous References
-* [](https://www.shiksha.com/online-courses/articles/rnn-vs-gru-vs-lstm/#:~:text=LSTMs%20effectively%20store%20and%20access,on%20the%20task%20at%20hand.)
+* [RNN vs GRU vs LSTM](https://www.shiksha.com/online-courses/articles/rnn-vs-gru-vs-lstm/#:~:text=LSTMs%20effectively%20store%20and%20access,on%20the%20task%20at%20hand.)
