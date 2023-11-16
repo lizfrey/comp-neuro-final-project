@@ -19,12 +19,15 @@ Fall 2023
 
 ## Learning Reflection
 
-To see my analysis of the accuracy, confusion matrices, and other metrics from the kaggle dataset, please see the `tutorial.ipynb` file itself. 
+To see my analysis of the accuracy, confusion matrices, and other metrics from the kaggle dataset, please see my analysis document itself. 
 
 Overall, this project helped me learn a few main things:
 
 1. Implementing various embeddings was a lot more difficult than I anticipated. Specifically, I spent a very long time trying to implement skip vector embeddings. I tried using this git repository and this tutorial to no avail because of a conflict in `python` versions. These were the two main resources that I was able to find on skip vectors, but they turned out to be written by the same person who used Python 2.7. This was very unfortunate. 
 
-2. The differences between different embeddings. I choose two main types of vector embeddings: Word2Vec embeddings using the tokens themselves as a training set and BERT embeddings. I chose Word2Vec initially because they seemed the easiest to implement, and I wanted to try out the different BERT embeddings to better understand how they worked as we had done a little bit of them in part 3 of the project, and I thought they were super interesting. I've added more notes on this in the `main.ipynb` file comparing the differences between the confusion matrices. 
+2. The differences between different embeddings. I choose two main types of vector embeddings: Word2Vec embeddings using the tokens themselves as a training set and BERT embeddings. I chose Word2Vec initially because they seemed the easiest to implement, and I wanted to try out the different BERT embeddings to better understand how they worked as we had done a little bit of them in part 3 of the project, and I thought they were super interesting. I've added more notes on this in my analysis document comparing the differences between the confusion matrices. 
 
-3. The GRU model. When I was trying to figure out how to implement this, I learned a lot about how the GRU model works. Specifically, I found the comparisons between GRU and LSTM algorithms 
+3. The GRU model. When I was trying to figure out how to implement this, I learned a lot about how the GRU model works. Specifically, I found the comparisons between GRU and LSTM algorithms interesting. Both algorithms are types of recurrent neural networks that are designed to address the vanishing gradient problem (problem where the gradients used in gradient descent become extremely small or "vanish"), but GRUs are significantly more simple in comparison to LSTMs. 
+
+## Other Miscellaneous References
+* [](https://www.shiksha.com/online-courses/articles/rnn-vs-gru-vs-lstm/#:~:text=LSTMs%20effectively%20store%20and%20access,on%20the%20task%20at%20hand.)
